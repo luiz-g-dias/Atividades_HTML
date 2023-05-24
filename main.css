@@ -1,0 +1,55 @@
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.863);
+}
+body {
+    background-color: rgb(207, 154, 154);
+}
+header li {
+    display: inline;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.432);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.articles article img {
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    height: 180px;
+    width: 180px;
+}
+
+.articles article {
+    width: 30%;
+    margin: 5px;
+}
+
+#sports {
+    background-color: rgb(152, 255, 174);
+}
+
+#economy {
+    background-color: rgb(125, 178, 238);
+}
+
+#tecnology {
+    background-color: rgb(219, 247, 145);
+}
+
+#games {
+    background-color: rgb(194, 145, 240);
+}
